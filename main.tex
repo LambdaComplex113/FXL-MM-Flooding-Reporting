@@ -1,0 +1,38 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage[light,default]{ubuntu}
+  \renewcommand{\familydefault}{\sfdefault}
+\else
+  \usepackage{fontspec}
+  \setmainfont{Ubuntu Light}
+\fi
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{geometry}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usepackage{eso-pic}
+\geometry{margin=2.2cm}
+\AddToShipoutPictureBG{%
+  \begin{tikzpicture}[remember picture,overlay]
+    \draw[line width=0.8pt,color=black!80] ([xshift=1.4cm,yshift=-1.75cm]current page.north west) rectangle ([xshift=-1.4cm,yshift=1.3cm]current page.south east);
+  \end{tikzpicture}%
+}
+\newcommand{\CompanyLogoPath}{assets/company\_logo.png}
+\AddToShipoutPictureFG{%
+  \begin{tikzpicture}[remember picture,overlay]
+    \node[anchor=north east] at ([xshift=-0.45cm,yshift=-0.45cm]current page.north east){\includegraphics[width=4.2cm]{\CompanyLogoPath}};
+  \end{tikzpicture}%
+}
+\title{Imbibition - Experiment Report}
+\author{MIAS}
+\date{2026-04-18}
+\begin{document}
+\maketitle
+\tableofcontents
+\newpage
+\input{sections/section_01.tex}
+\end{document}

@@ -1,0 +1,24 @@
+{
+  "generated_at": "2026-04-18T10:25:59",
+  "package_dir": "C:\\Users\\nilsl\\OneDrive\\Dokumente\\GitHub\\platform_control_center\\test_data\\data export\\20260418_Chevron_MF_Imbibition",
+  "project_title": "Chevron MF",
+  "experiment_title": "Imbibition",
+  "report_git_target": "https://github.com/LambdaComplex113/FXL-MM-Flooding-Reporting",
+  "report_git_branch": "main",
+  "overleaf_git_target": "https://github.com/LambdaComplex113/FXL-MM-Flooding-Reporting",
+  "selected_run_ids": [
+    "1776446247832_a07d5fc0"
+  ],
+  "warnings": [
+    "Section 'Brine Flood 1': pressure data unavailable for global run '1776446247832_a07d5fc0', plotted saturation-only trend."
+  ],
+  "main_tex": "C:\\Users\\nilsl\\OneDrive\\Dokumente\\GitHub\\platform_control_center\\_mias_generated_reports\\report_20260418_102558_Chevron_MF_Imbibition\\main.tex",
+  "sections": [
+    "C:\\Users\\nilsl\\OneDrive\\Dokumente\\GitHub\\platform_control_center\\_mias_generated_reports\\report_20260418_102558_Chevron_MF_Imbibition\\sections\\section_01.tex"
+  ],
+  "figures": [
+    "C:\\Users\\nilsl\\OneDrive\\Dokumente\\GitHub\\platform_control_center\\_mias_generated_reports\\report_20260418_102558_Chevron_MF_Imbibition\\figures\\section_01_global_1776446247832_a07d5fc0.png",
+    "C:\\Users\\nilsl\\OneDrive\\Dokumente\\GitHub\\platform_control_center\\_mias_generated_reports\\report_20260418_102558_Chevron_MF_Imbibition\\figures\\section_01_subroi_combined.png"
+  ],
+  "company_logo": "assets/company_logo.png"
+}
